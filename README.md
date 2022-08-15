@@ -35,10 +35,11 @@ git add .                 # Add all changed files
 git commit -m 'This is a test commit'
 git status                # List current branch and any changes to commit
 
-git branch                # Lists branches on current repo and the current branch.
+git branch                # Lists branches on current repo and the current branch
 git branch newBranch      # Create branch
 git remote -v             # List the current remote repository
-git merge newBranch       # Merge the branch you're currently in with another. Keep in mind the changes will be incorporated only to the branch you're currently in, not to the other one.
+git rebase master         # Move the entirety of the current branch on top of master
+git merge newBranch       # Merge the branch you're currently in with another. Keep in mind the changes will be incorporated only to the branch you're currently in, not to the other one
 ```
 
 ### SSH
