@@ -39,7 +39,8 @@ git branch                # Lists branches on current repo and the current branc
 git branch newBranch      # Create branch
 git remote -v             # List the current remote repository
 git rebase master         # Move the entirety of the current branch on top of master
-git merge origin/master && git reset --soft origin/master # Reset current branch on master & squash all commits on branch
+git merge origin/master && git reset --soft origin/master 
+                          # Reset current branch on master & squash all commits on branch
 git merge newBranch       # Merge the branch you're currently in with another. Keep in mind the changes will be incorporated only to the branch you're currently in, not to the other one
 ```
 
