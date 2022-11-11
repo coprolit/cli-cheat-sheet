@@ -20,6 +20,7 @@ rm -r foo                 # Delete directory including contents
 touch foo.txt             # Create file or update existing files modified timestamp
 rm foo.txt                # Delete file
 open foo.txt              # Open file in the default editor
+cp foo.txt /documents     # Copy-paste file to a folder
 ```
 
 ### Processes
@@ -43,6 +44,9 @@ git merge origin/master && git reset --soft origin/master
                           # Reset current branch on master & squash all commits on branch
 git merge newBranch       # Merge the branch you're currently in with another. Keep in mind the changes will be incorporated only to the branch you're currently in, not to the other one
 ```
+
+### Node modules
+npm cache clean --force   # clear local npm cache folder
 
 ### SSH
 ```
