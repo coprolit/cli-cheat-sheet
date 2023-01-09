@@ -46,7 +46,9 @@ git merge newBranch       # Merge the branch you're currently in with another. K
 ```
 
 ### Node modules
+```
 npm cache clean --force   # clear local npm cache folder
+```
 
 ### SSH
 ```
